@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(21, 0, 25);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    /* margin-bottom: 90px; */
+}
+
+/* Estilo dos itens do menu */
+.menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* Estilo dos links do menu */
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #c27bcc;
+    border-radius: 4px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
