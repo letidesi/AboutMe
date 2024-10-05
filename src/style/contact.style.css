@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(21, 0, 25);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos itens do menu */
+.menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* Estilo dos links do menu */
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #c27bcc;
+    border-radius: 4px;
+}
+
+.contact-section {
+    background: linear-gradient(135deg, rgba(21, 0, 25, 0.9), rgba(75, 0, 130, 0.9));
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-link {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.linkedin {
+    background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg');
+}
+
+.github {
+    background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg');
+}
+
+.bluesky {
+    background-image: url('https://cdn.simpleicons.org/bluesky/ffffff');
+}
+
+.social-link:hover {
+    filter: brightness(1.2);
+    transform: scale(1.2);
+}
