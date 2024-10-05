@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(21, 0, 25);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/* Estilo dos itens do menu */
+.menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* Estilo dos links do menu */
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #c27bcc;
+    border-radius: 4px;
+}
