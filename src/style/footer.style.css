@@ -1,0 +1,41 @@
+/* Footer styling */
+footer {
+    background-color: #000000; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centralizar o conteúdo */
+    padding: 20px 0; /* Espaçamento interno */
+    position: relative;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 0; /* Remove o espaçamento padrão */
+    font-size: 14px; /* Tamanho do texto */
+}
+
+footer .social-links {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer .social-links li {
+    display: inline; /* Mostra os itens da lista em linha */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+footer .social-links li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+}
+
+footer .social-links li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: #ddd; /* Muda a cor do link ao passar o mouse */
+}
