@@ -118,3 +118,41 @@ h1, h2 {
         width: 90%;
     }
 }
+.hover-text {
+    transition: color 0.3s ease;
+}
+
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#swing-image {
+    display: block;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Efeito de balanço ativado */
+.swing-active {
+    animation: swing 1.5s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+#float-image {
+    display: block;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Efeito de flutuação contínua */
+.float-active {
+    animation: float 3s ease-in-out infinite;
+}
